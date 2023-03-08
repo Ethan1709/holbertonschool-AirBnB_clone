@@ -34,19 +34,42 @@
 
 .locations {
     border-right: 1px solid #DDDDDD;
+    position: relative;
+    right: 130px;
 }
 
-h3 {
+.locations h3 {
     font-weight: 600;
     margin-bottom: 0;
     margin-left: 40px;
+    position: relative;
+    right: 60px;
 }
 
-h4 {
+.locations h4 {
     font-weight: 400;
     font-size: 14px;
     margin-left: 40px;
     margin-top: 0;
+    position: relative;
+    right: 60px;
+}
+
+.amenities h3 {
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-left: 40px;
+    position: relative;
+    right: 125px;
+}
+
+.amenities h4 {
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 40px;
+    margin-top: 0;
+    position: relative;
+    right: 125px;
 }
 
 .popover {
