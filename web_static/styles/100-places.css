@@ -1,5 +1,8 @@
 .places h1 {
     font-size: 30px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
 }
 
 .places article {
@@ -89,7 +92,10 @@
 .amenities2 h2,
 .reviews h2 {
     font-size: 16px;
-    border-bottom: #DDDDDD solid 1px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid #DDDDDD;
+    padding-bottom: 8px;
 }
 
 .amenities2 ul,
@@ -102,7 +108,6 @@
     text-align: left;
     margin-bottom: 4px;
     position: relative;
-    right: 40px;
 }
 
 .reviews p {
@@ -149,17 +154,24 @@
     height: 48px;
     background-repeat: no-repeat;
     display: flex;
+    justify-content: flex-start;
     background-size: 25px;
 }
 
 .wifi li,
 .tv li,
-.ps5 li,
-.bird li,
-.bed li,
 .toy li {
     list-style: none;
     margin-left: 20px;
     margin-top: 5px;
+    padding-left: 25px;
+}
+
+.bird li,
+.ps5 li,
+.bed li {
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 1px;
     padding-left: 25px;
 }

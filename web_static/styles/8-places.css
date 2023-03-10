@@ -1,5 +1,8 @@
 .places h1 {
     font-size: 30px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
 }
 
 .places article {
@@ -21,7 +24,7 @@
 .box {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;  
+    justify-content: center; 
 }
 
 .price_by_night {
